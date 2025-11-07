@@ -44,9 +44,9 @@ export const MODEL_OPTIONS = {
 };
 
 export const PROXY_EXAMPLES = {
-  openai: 'https://openai.weiruchenai.me/v1',
-  claude: 'https://claude.weiruchenai.me/v1',
-  gemini: 'https://gemini.weiruchenai.me/v1beta',
+  openai: 'https://api.openai.com/v1',
+  claude: 'https://api.anthropic.com/v1',
+  gemini: 'https://generativelanguage.googleapis.com/v1beta',
   deepseek: 'https://api.deepseek.com/v1',
   siliconcloud: 'https://api.siliconflow.cn/v1',
   xai: 'https://api.x.ai/v1',
@@ -54,9 +54,9 @@ export const PROXY_EXAMPLES = {
 };
 
 export const DEFAULT_PROXIES = {
-  openai: 'https://openai.weiruchenai.me/v1',
-  claude: 'https://claude.weiruchenai.me/v1',
-  gemini: 'https://gemini.weiruchenai.me/v1beta',
+  openai: 'https://api.openai.com/v1',
+  claude: 'https://api.anthropic.com/v1',
+  gemini: 'https://generativelanguage.googleapis.com/v1beta',
   deepseek: 'https://api.deepseek.com/v1',
   siliconcloud: 'https://api.siliconflow.cn/v1',
   xai: 'https://api.x.ai/v1',

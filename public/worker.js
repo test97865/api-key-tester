@@ -519,11 +519,11 @@ function getApiUrl(apiType, endpoint, proxyUrl) {
   } else {
     switch (apiType) {
       case 'openai':
-        return 'https://openai.weiruchenai.me/v1' + endpoint;
+        return 'https://api.openai.com/v1' + endpoint;
       case 'claude':
-        return 'https://claude.weiruchenai.me/v1' + endpoint;
+        return 'https://api.anthropic.com/v1' + endpoint;
       case 'gemini':
-        return 'https://gemini.weiruchenai.me/v1beta' + endpoint;
+        return 'https://generativelanguage.googleapis.com/v1beta' + endpoint;
       case 'deepseek':
         return 'https://api.deepseek.com/v1' + endpoint;
       case 'siliconcloud':
