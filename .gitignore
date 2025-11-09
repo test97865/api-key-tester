@@ -42,3 +42,15 @@ pnpm-debug.log*
 # 本地开发工具目录
 开发工具/
 开发/
+
+# 项目文档（根据需要选择性上传）
+PROJECT_SUMMARY.md
+TECH_STACK_TEMPLATE.md
+API_TESTING_MECHANISM.md
+CLOUDFLARE_DEPLOYMENT.md
+CLAUDE.md
+claudecode_env.ps1
+.claude/
+
+# 后端 API 服务器代码（独立项目）
+api-server/
